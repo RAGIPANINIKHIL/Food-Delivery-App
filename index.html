@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Food delivery App</h1>
+    <div class="main-container">
+        <div class="search-container">
+            <fieldset>
+                <legend>Search Criteria</legend>
+                <div>
+                    <label for="restaurant">Restaurant</label>
+                    <input type="text" name="restaurant" id="restaurant" placeholder="search your restaurant"/>
+                    <label for="sortBy">Sort By</label>
+                    <select id="sortBy" name="sortBy">
+                        <option value="name" selected>Name</option>
+                        <option value="rating">Rating</option>
+                    </select>
+                    <label for="tagBy">Tags</label>
+                    <select id="tagBy" name="tagBy">
+                        <option value="" selected>All</option>
+                        <option value="biryani">Biryani</option>
+                        <option value="chinese">Chinese</option>
+                        <option value="burger">Burger</option>
+                        <option value="ice cream">Ice cream</option>
+                        <option value="fruits">Fruits</option>
+                    </select>
+                    <input type="checkbox" name="showFav" id="showFav" />
+                    <label for="showFav">Show only favourites</label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="restaurants">
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

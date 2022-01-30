@@ -1,0 +1,15 @@
+.restaurants{
+    background: #8080803b;
+    padding: 1.8rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+}
+
+.restaurants__card{
+    border: 1px solid #000000;
+    padding: 2rem;
+    width: 10rem;
+}
